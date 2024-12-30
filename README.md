@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug in HTML where an attempt to modify an element's display style using JavaScript before the element is fully loaded into the DOM prevents it from being rendered. The bug is reproduced in `bug.html`. The solution, demonstrating correct timing via an event listener, is present in `solution.html`.
